@@ -1,9 +1,8 @@
  body
     {
      background:  #28B6F6;
-    }
-     
-div.fixed {
+    }     
+.m_image1 {
             position: fixed;
             bottom: 128px;
             left: 180px;
@@ -25,13 +24,15 @@ div.fixed {
            font-family:Gotham Book Italic;
            src: url(../font/gotham_book_italic.ttf);
            }
-    div.id {
+    .m_image2
+            {
             position: fixed;
             bottom: 100px;
             left: 42px;
             width: 300px;
             }
-    .text {
+    .text 
+            {
            font-size: 26px;
            color: white;
            font-family: Gotham Book;
@@ -39,248 +40,228 @@ div.fixed {
            margin-top:10%; 
            }
 
-       .email {
-    background-color: #28b6f6;
-    border: 2px solid #fff;
-    color: white;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-     position: relative;
-     top: 1px;
-     left:-90px;
-     height: 41px;
-     text-decoration: none;
-     width: 170px;
-     font-family: Gotham Bold;
-
-}
-        .about{   
-            background-color: #A2C86B;
-            border: none;
-            color: white;
-            text-align: center;
+       .email
+             {
+              background-color: #28b6f6;
+              border: 2px solid #fff;
+              color: white;
+              cursor: pointer;
+              display: inline-block;
+              font-size: 14px;
+              position: relative;
+              top: 1px;
+              left:-90px;
+              height: 41px;
+              text-decoration: none;
+              width: 170px;
+              font-family: Gotham Bold;
+            }
+        .about
+             {   
+             background-color: #A2C86B;
+             border: none;
+             color: white;
+             text-align: center;
+             text-decoration: none;
+             font-size: 14px;
+             position: relative;
+             top: -40px;
+            left:120px;
+            height: 41px;
             text-decoration: none;
-            font-size: 14px;
-            position: relative;
-           top: -40px;
-           left:120px;
-           height: 41px;
-           text-decoration: none;
-           width: 170px;
-           font-family: Gotham Bold;
+            width: 170px;
+            font-family: Gotham Bold;
             
-        }
-        .inputbox{   
-            position: fixed;
-            background-color: #28B6F6;
-            border: none;
-            border-color: white;
-            color: white;
-            padding: 12px 50px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 45px;
-            margin-left: 25%;
-            margin-top:43%;
-        }
-    .hour{ 
-            position: fixed;
-            background-color: #28B6F6;
-            border: none;
-            border-color: white;
-            color: white;
-            margin-top:50%; 
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 15px;
-            margin-left: 35%;
-            cursor: pointer;
-            font-family: Gotham Book;
-        }
+            }
+        .inputbox
+                {   
+                 position: fixed;
+                 background-color: #28B6F6;
+                 border: none;
+                 border-color: white;
+                 color: white;
+                 padding: 12px 50px;
+                 text-align: center;
+                 text-decoration: none;
+                 display: inline-block;
+                 font-size: 45px;
+                 margin: 370px 450px;           
+                }
+   .date-formate
+         { 
+         position: fixed;
+         background-color: #28B6F6;
+         border: none;
+         border-color: white;
+         color: white;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 15px;
+         margin: 435px 545px;
+         cursor: pointer;
+         font-family: Gotham Book;
+         }
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+         display: none; /* Hidden by default */
+         position: fixed; /* Stay in place */
+         z-index: 1; /* Sit on top */
+         left: 0;
+         top: 0;
+         width: 100%; /* Full width */
+         height: 100%; /* Full height */
+         overflow: auto; /* Enable scroll if needed */
+         background-color: rgb(0,0,0); /* Fallback color */
+         background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 
-}
+        }
 
 /* Modal Content/Box */
-.modal-content {
-    background-color: transparent;
-    margin: 4% auto;
-    padding: 20px;
-    border: 0px solid #fff;
-    width: 90%;
-    height: 80%;
-   position: fixed;
-   left: 10px;
-    top: 0px;
-    line-height: 170%;
-    font-size: 34px;
-
-}
-
+.modal-content 
+                {
+                background-color: transparent;
+                margin: 4% auto;
+                padding: 20px;
+                border: 0px solid #fff;
+                width: 90%;
+                height: 80%;
+                position: fixed;
+                left: 10px;
+                top: 0px;
+                line-height: 170%;
+                font-size: 34px;
+                }
 /* The Close Button */
-.close {
+.close 
+{
     color: white;
     float: right;
     font-size: 30px;
     font-family: Gotham Bold;
-    margin-top: -5%;
+    margin: -71px -98px 0 0;
 }
-
 .close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
+.close:focus 
+            {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+            }
+
 .counter
-{
-
-    margin: 0% 0%;
-}
+        {
+         margin: 0% 0%;
+        }
 .mobile_image
-{
-
-margin-top: 5%;
-
-}
+            {
+             margin-top: 5%;
+            }
 
 .button
-{
-    margin: 9% 55%;
-}
+        {
+         margin: 9% 55%;
+        }
 
 .text1
-{
-    font-size: 25px;
-    color: white;
-    font-family: Gotham Bold;
-    text-rendering: initial;
-     margin-left: 8%;
-    margin-top:0%; 
-   
-}
+      {
+        font-size: 25px;
+        color: white;
+        font-family: Gotham Bold;
+        text-rendering: initial;
+        margin-left: 8%;
+        margin-top:0%; 
+      }
 .text2
-{
-font-size: 18px;
-    color: white;
-    font-family: Gotham Book;
-    text-rendering: initial;
-    padding:10px;
-    margin-left: 8%;
-  
-}
+      {
+      font-size: 18px;
+      color: white;
+      font-family: Gotham Book;
+      text-rendering: initial;
+      padding:10px;
+      margin-left: 8%;
+     }
 .text3
-{
-
-    font-size: 25px;
-    color: white;
-    font-family: Gotham Bold;
-    margin-left: 8%;
-
-}
-
-
-.modal-content2 {
-    background-color: transparent;
-    padding: 20px;
-    border: 0px solid #fff;
-    width: 90%;
-    height: 80%;
-   position: fixed;
-   left: 10px;
-    top: 0px;
-    line-height: 110%;
-    font-size: 18px;
-   
- 
-
-}
-
-.emailbody{
-     margin-left: -16%;
-}
-
+     {
+        font-size: 25px;
+        color: white;
+        font-family: Gotham Bold;
+        margin-left: 8%;
+     }
+.modal-content2 
+                {
+                 background-color: transparent;
+                 margin: 4% auto;
+                 padding: 20px;
+                 border: 0px solid #fff;
+                 width: 90%;
+                 height: 80%;
+                 position: fixed;
+                 left: 10px;
+                 top: 0px;
+                 line-height: 110%;
+                 font-size: 18px;
+                }
 .emailbox
-{
-    width: 416px;
-    height: 152px;
-    background-color: transparent;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-     position: relative;
-     top: 30px;
-     left:370px;
-     height: 44px;
-     text-decoration: none;
-     width: 500px;
-     font-family: Gotham Bold;
-     color: white;
-}
-.emailcontent
-{
-    font-size: 25px;
-    color: white;
-    font-family: Gotham Book Italic;
-    position: relative;
-    top: 50px;
-     left:300px;
-     line-height: 210%;
-}
+            {
+             width: 416px;
+             height: 152px;
+             background-color: transparent;
+             cursor: pointer;
+             display: inline-block;
+             font-size: 14px;
+             position: relative;
+             top: 30px;
+             left:370px;
+             height: 44px;
+             text-decoration: none;
+             width: 500px;
+             font-family: Gotham Bold;
+             color: white;
+            }
+.email-content
+            {
+                font-size: 25px;
+                color: white;
+                font-family: Gotham Book Italic;
+                position: relative;
+                top: 50px;
+                left:300px;
+                line-height: 210%;
+            }
 .emailmessage
+            {
+                font-size: 15px;
+                color: white;
+                font-family: Gotham Book;
+                position: relative;
+                top: 52px;
+                left:370px;
+                line-height: 210%;
+            }
 
-{
-    font-size: 15px;
-    color: white;
-    font-family: Gotham Book;
-    position: relative;
-    top: 40px;
-     left:370px;
-     line-height: 210%;
-
-}
-
-.ano{
-
-font-size: 25px;
-    color: white;
-    font-family: Gotham Bold;
-    position: relative;
-    top: 15px;
-     left:315px;
-     line-height: 210%;
-
-}
-
+.text4
+    {
+        font-size: 25px;
+        color: white;
+        font-family: Gotham Bold;
+        position: relative;
+        top: 15px;
+        left:315px;
+        line-height: 210%;
+    }
 .sub
-{   
-    
-            background-color: #28B6F6;
-            border: none;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            font-size: 14px;
-            position: relative;
-           top: 42px;
-           left:550px;
-           height: 41px;
-           text-decoration: none;
-           width: 170px;
-           font-family: Gotham Bold;
-            
-        }
+    {   
+        background-color: #28B6F6;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        position: relative;
+        top: 42px;
+        left:550px;
+        height: 41px;
+        width: 170px;
+        font-family: Gotham Bold;
+    }
