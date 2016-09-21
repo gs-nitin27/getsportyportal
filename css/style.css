@@ -3,9 +3,9 @@
      background:  #28B6F6;
     }     
 .m_image1 {
-            position: fixed;
-            bottom: 128px;
-            left: 180px;
+            position: relative;
+            margin-top:5%;
+            margin-left: 5%;
             width: 100px;
             }
 @font-face {
@@ -24,20 +24,15 @@
            font-family:Gotham Book Italic;
            src: url(../font/gotham_book_italic.ttf);
            }
-    .m_image2
-            {
-            position: fixed;
-            bottom: 100px;
-            left: 42px;
-            width: 300px;
-            }
+    
     .text 
             {
            font-size: 26px;
            color: white;
            font-family: Gotham Book;
-           margin-left: 44%;
-           margin-top:10%; 
+           margin-left: 43%;
+           margin-top:-30%; 
+            position: relative;
            }
 
        .email
@@ -85,7 +80,8 @@
                  text-decoration: none;
                  display: inline-block;
                  font-size: 45px;
-                 margin: 370px 450px;           
+                 margin: 470px 450px;   
+                 font-family: Gotham Bold;        
                 }
    .date-formate
          { 
@@ -98,8 +94,7 @@
          text-decoration: none;
          display: inline-block;
          font-size: 15px;
-         margin: 435px 545px;
-         cursor: pointer;
+         margin: 540px 545px;
          font-family: Gotham Book;
          }
 
@@ -221,7 +216,7 @@
             }
 .email-content
             {
-                font-size: 25px;
+                font-size: 24px;
                 color: white;
                 font-family: Gotham Book Italic;
                 position: relative;
@@ -231,11 +226,11 @@
             }
 .emailmessage
             {
-                font-size: 15px;
+                font-size: 14px;
                 color: white;
-                font-family: Gotham Book;
+                font-family: Gotham Bold;
                 position: relative;
-                top: 52px;
+                top: 48px;
                 left:370px;
                 line-height: 210%;
             }
@@ -262,6 +257,6 @@
         top: 42px;
         left:550px;
         height: 41px;
-        width: 170px;
+        width: 168px;
         font-family: Gotham Bold;
     }
