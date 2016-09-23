@@ -15,13 +15,8 @@
 <form name="count">
 <input type="submit" size="69" name="count2" class="inputbox">
  </form>
-        <p class="date-formate"><span>&nbsp;DAYS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOURS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>MINUTES</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SECONDS</span></p>
-
-
-
-
-
-        
+        <p class="date-formate"><span>&nbsp;DAYS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOURS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>MINUTES</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;SECONDS</span></p>
+       
 </div>
 
   <!---******************* CODE OF "INSERT THE MOBILE IMAGE & TEXT ************************** -->   
@@ -55,7 +50,7 @@
     </div>
 </div>
 
-<!--***************************** Modal of E- mail************************************************ -->
+<!--***************************** Modal of E- *********************************************** -->
 
 <div id="myModal2" class="modal">
 
@@ -63,13 +58,15 @@
  
        <div class="modal-content2">
     
-            <span class="close">x</span>
+            <span class="close2">x</span>
 
             <p class="email-content">"EVERY ACCOMPLISHMENT STARTS WITH A DECISION TO TRY"</p>
             <p class="text4">-ANONYMOUS</p>
             <p class="emailmessage"> WE'LL LET YOU KNOW WHEN WE LAUNCH</p>
-            <p><input type="text" class="emailbox" placeholder="   ENTER EMAIL"></INPUT></P>
-            <p><input type="submit" class="sub" value="SUBMIT"></input></p>
+            <form action="welcome.php" method="POST">
+            <input type="text" class="emailbox" placeholder="ENTER EMAIL" name="name"></INPUT><br>
+            <input type="submit" class="sub" value="SUBMIT"  ></input></p>
+            </form>
           </div>
 </div>
 
@@ -98,12 +95,12 @@ var emBtn = document.getElementById("eBtn");
 /****************************** Get the <span> element that closes the modal   ****************************/
 
 var span = document.getElementsByClassName("close")[0];
-var span2 = document.getElementsByClassName("close")[1];
+var span2 = document.getElementsByClassName("close2")[0];
 
 /************************* When the user clicks on the button, open the ******************/
 btn.onclick = function() 
 {
-      console.log("dsds");
+      console.log("abc");
       modal.style.display = "block";
 }
 emBtn.onclick = function() 
@@ -122,22 +119,6 @@ span2.onclick = function()
      modal2.style.display = "none";
 }
 
-/***********************When the user clicks anywhere outside of the modal, close it *************/
-window.onclick = function(event)
- {
-    if (event.target == modal) 
-    {
-        modal.style.display = "none";
-    }
-}
-
-window.onclick = function(event)
-  {
-      if (event.target == modal2) 
-      {
-        modal2.style.display = "none";
-      }
-  }
 </script>
 </html>
 
