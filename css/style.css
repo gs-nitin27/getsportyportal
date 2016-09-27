@@ -70,7 +70,7 @@
         .inputbox
                 {   
                  position: fixed;
-                 background-color: #28B6F6;
+                 background-color: transparent;
                  border: none;
                  border-color: white;
                  color: white;
@@ -85,7 +85,7 @@
    .date-formate
          { 
          position: fixed;
-         background-color: #28B6F6;
+        background-color: transparent;
          border: none;
          border-color: white;
          color: white;
