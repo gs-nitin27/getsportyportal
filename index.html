@@ -15,7 +15,7 @@
 <form name="count">
 <input type="submit" size="69" name="count2" class="inputbox">
  </form>
-        <p class="date-formate"><span>&nbsp;DAYS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOURS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>MINUTES</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;SECONDS</span></p>
+        <p class="date-formate"><span>&nbsp;DAYS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>HOURS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>MINUTES</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>SECONDS</span></p>
        
 </div>
 
@@ -63,13 +63,11 @@
             <p class="email-content">"EVERY ACCOMPLISHMENT STARTS WITH A DECISION TO TRY"</p>
             <p class="text4">-ANONYMOUS</p>
             <p class="emailmessage"> WE'LL LET YOU KNOW WHEN WE LAUNCH</p>
-            <form action="welcome.php" method="POST">
-            <input type="text" class="emailbox" placeholder="  ENTER EMAIL" name="name"></INPUT><br>
-            <input type="submit" class="sub" value="SUBMIT"  ></input></p>
-            </form>
+            <input type="text" class="emailbox" placeholder="  ENTER EMAIL" name="name" id="email"/> <br>
+            <button id="save"  onclick="saveEmail()" class="sub">SUBMIT</button></p>
           </div>
 </div>
-
+<inp onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your text'" />
 <!--***************************** Click the E-mail & About **************************** --> 
 
  <div class="button">
@@ -81,6 +79,8 @@
 <!--***************************** Code of javascript and ******************************* --> 
 
                      <script type="text/javascript" src="javascript/watch.js"></script>
+                     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+                     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
                      <script type="text/javascript">
 
 
@@ -106,6 +106,7 @@ btn.onclick = function()
 emBtn.onclick = function() 
 {
       console.log("xyz");
+      $('#email').val('');
       modal2.style.display = "block";
 }
 
@@ -117,6 +118,39 @@ span.onclick = function()
 span2.onclick = function() 
 {
      modal2.style.display = "none";
+}
+
+function saveEmail()
+{
+
+var email = $('#email').val();
+
+$.ajax({
+
+url:'welcome.php',
+method:'POST',
+data:'act=sendEmail&email='+email,
+datatype:"json",
+success:function(data)
+{
+var data = JSON.parse(data);
+if(data.status == 0)
+{
+alert(data.message);
+$('#email').val('');
+}
+else{
+modal2.style.display = "none";  
+alert(data.message);
+$('#email').val('');
+
+}
+
+
+
+}
+})
+
 }
 
 </script>
