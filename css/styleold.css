@@ -1,12 +1,11 @@
  body
     {
      background:  #28B6F6;
-     font-size: 15px;
     }     
 .m_image1 {
             position: relative;
             margin-top:5%;
-            /*margin-left: 5%;*/
+            margin-left: 5%;
             width: 100px;
             }
 @font-face {
@@ -28,15 +27,13 @@
     
     .text 
             {
-           font-size: 2.2em;
+           font-size: 26px;
            color: white;
            font-family: Gotham Book;
            margin-left: 40%;
            margin-top:-30%; 
             position: relative;
-            text-align: center;
            }
-
 
        .email
              {
@@ -45,15 +42,14 @@
               color: white;
               cursor: pointer;
               display: inline-block;
-              font-size: 15px;
+              font-size: 14px;
               position: relative;
               top: 1px;
               left:-90px;
-              height: auto;
+              height: 41px;
               text-decoration: none;
               width: 170px;
               font-family: Gotham Bold;
-              padding:12px 0;
             }
         .about
              {   
@@ -62,20 +58,19 @@
              color: white;
              text-align: center;
              text-decoration: none;
-             font-size: 15px;
+             font-size: 14px;
              position: relative;
              top: -40px;
             left:120px;
-            height: auto;
+            height: 41px;
             width: 170px;
             font-family: Gotham Bold;
-            padding: 14px 0;
             
             }
         .inputbox
                 {   
                  position: fixed;
-                 background-color: #28B6F6;
+                 background-color: transparent;
                  border: none;
                  border-color: white;
                  color: white;
@@ -83,23 +78,24 @@
                  text-align: center;
                  text-decoration: none;
                  display: inline-block;
-                 font-size: 3em;
+                 font-size: 45px;
                  margin: 470px 450px;   
                  font-family: Gotham Bold;        
                 }
    .date-formate
          { 
          position: fixed;
-         background-color: #28B6F6;
+        background-color: transparent;
          border: none;
          border-color: white;
          color: white;
-        
          text-decoration: none;
          display: inline-block;
          font-size: 15px;
-         margin: 540px 545px;
+         margin: 530px 490px;
          font-family: Gotham Book;
+         
+         width:auto;
          }
 
 .modal {
@@ -138,7 +134,7 @@
     float: right;
     font-size: 30px;
     font-family: Gotham Bold;
-   
+    margin: -90px -98px 0 0;
 }
 .close:hover,
 .close:focus 
@@ -153,8 +149,7 @@
     float: right;
     font-size: 30px;
     font-family: Gotham Bold;
-    margin-right: -126px;
-    margin-top: -64px;
+    margin: -71px -98px 0 0;
 }
 .close2:hover,
 .close2:focus 
@@ -166,8 +161,7 @@
 
 .counter
         {
-         margin: 0 auto;
-         width:500px;
+         margin: 0% 0%;
         }
 .mobile_image
             {
@@ -215,7 +209,7 @@
                  position: fixed;
                  left: 10px;
                  top: 0px;
-                 line-height: 10%;
+                 line-height: 110%;
                  font-size: 18px;
                 }
 .emailbox
@@ -228,12 +222,12 @@
              font-size: 14px;
              position: relative;
              top: 30px;
+             left:370px;
              height: 44px;
              text-decoration: none;
              width: 500px;
              font-family: Gotham Bold;
              color: white;
-             margin-left: 37%;
             }
 .email-content
             {
@@ -241,8 +235,9 @@
                 color: white;
                 font-family: Gotham Book Italic;
                 position: relative;
+                top: 50px;
+                left:300px;
                 line-height: 210%;
-                margin-left: 13%;
             }
 .emailmessage
             {
@@ -250,10 +245,9 @@
                 color: white;
                 font-family: Gotham Bold;
                 position: relative;
-                line-height: 110%;
-                margin-left: 37%;
-                top:12;
-                
+                top: 48px;
+                left:370px;
+                line-height: 210%;
             }
 
 .text4
@@ -263,8 +257,8 @@
         font-family: Gotham Bold;
         position: relative;
         top: 15px;
+        left:315px;
         line-height: 210%;
-        margin-left: 13%;
     }
 .sub
     {   
@@ -276,126 +270,8 @@
         font-size: 14px;
         position: relative;
         top: 42px;
+        left:550px;
         height: 41px;
         width: 168px;
         font-family: Gotham Bold;
-        margin-left: 51%;
     }
-	
-	
-	
-.main{
-  margin-top:5%;
-}
-.text {
-    margin-left: 15px!important;
-    margin-right: 15px!important;
-    margin-top: 10%!important;
-}
-
-.button {
-    margin: 10% 0 0 0!important;
-}
-
-.about {
-    top: 10px!important;
-    left: 20%!important;
-}
-
-.email {
-    top: 10px!important;
-    left: 14%!important;
-}
-
-.inputbox,.date-formate{
-	margin:0!important;
-	position:relative!important;
-	padding:12px 50px;
-	background:transparent;
-}
-.date-formate{
-	padding:12px 8%;
-}
-.date-formate span{
-	margin-right:10px;
-}
-.date-formate span:nth-child(2),
-.date-formate span:nth-child(3){
-	margin-right:5%!important;
-}
-.img-responsive{
-    margin-left: -13%;
-}
-
-@media screen and (max-width: 960px) {
-
-.img-responsive{
-    margin-left: 0%;
-}
-
-	.text,.button,.email-content{
-		text-align:center;
-	}
-	.about, .email{
-		left:0!important;
-	}
-	.button{
-		margin-bottom:10%!important;
-	}
-  .date-formate{
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 600px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-.about, .email {
-    margin-bottom: 15px;
-}
-.text {
-    margin-left: 0px!important;
-    font-size: 1.5em;
-}
-.counter {
-    width: auto;
-}
-
-.inputbox, .date-formate {
-    margin: 0 auto!important;
-    display: block;
-    text-align: center;
-    width: 100%;
-
-}
-.inputbox {
-    font-size: 2em;
-	}
-	.main {
-    margin-top: 10%;
-}
-
-.date-formate table{
-    width: 330px;
-    margin: 0 auto;
-}
-
-}
-.inputbox{
-  padding:0!important; 
-}
-.date-formate{
-  padding-left: 0;
-  max-width: 600px;
-  padding-top: 0!important;
-}
-.close2
-{
-    margin-left: auto;
-    margin-top: auto;
-}
-
-
-table tr th {
-    text-align: center;
-}

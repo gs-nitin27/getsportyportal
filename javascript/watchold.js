@@ -28,7 +28,7 @@
       return
       }
       else
-            document.forms.count.count2.value="  "+dday+ "     "+dhour+"      "+dmin+"       "+dsec+"   "+before
+            document.forms.count.count2.value="  "+dday+ "        "+dhour+"          "+dmin+"           "+dsec+"   "+before
       setTimeout("countdown(theyear,themonth,theday)",1000)
       }
       //enter the count down date using the format year/month/day

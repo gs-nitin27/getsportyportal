@@ -2,55 +2,96 @@
   <html >
         <head>
               <meta charset="UTF-8">
-               <title> getsporty
+               <title> LAUNCH THE 
               </title>
-   <!---********************************<script src=""></script******************************* -->
+   <!---********************************<script src=""></script************* -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="css/style.css">
-    
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+<style>
+</style>
+	   
         </head>
 
 <body>
 
-<!---******************* CODE OF "DAYS HOURS MINUTES SECONDS" ************************* -->
+<div class="main">
+
+<div class="container">
+	<div class="row">
+	  <div class="col-sm-4">
+  <!---******************* CODE OF "INSERT THE MOBILE IMAGE & TEXT ***************** -->   
+
+
+                        <div class="">
+                        <img src="imageMobile\image1.png" class="img-responsive" style="margin:0 auto;">
+                        </div>
+	  </div>
+	  <div class="col-sm-8">
+
+          <p class="text">
+                          WE ARE BUILDING SOMETHING THAT 
+                          WILL HELP INDIAN SPORTS PEOPLE 
+                          ACHIEVE THEIR TRUE POTENTIAL
+          </p>
+		  
+		  
+		  <!--***************************** Click the E-mail & About *************** --> 
+
+ <div class="button">
+                    <button id="eBtn" class="email" >EMAIL US</button>
+                    <button id="aBtn" class="about">ABOUT US</button>
+ </div>
+ 
+
+
+ 
+	  </div>
+	</div>
+	
+<div class="row">
+     <!---******************* CODE OF "DAYS HOURS MINUTES SECONDS" *************** -->
+   
 <div class="counter">
 <form name="count">
-<input type="submit" size="69" name="count2" class="inputbox">
-</form>     
-</div>
-
-<div class="date-formate" > 
-   <table width="750px" cellpadding="6px"> 
+ <input type="submit" size="69" name="count2" class="inputbox"> 
+ </form>
+ <div class ="date-formate" >
+        <table width="500" cellpadding=""> 
    <tr> 
    <th >DAYS</th> <th >HOURS</th> <th >MINUTES</th> <th >SECONDS</th>
    </tr> 
    </table> 
+  </div>     
+</div>
+</div>
+
+
 </div>
 
 
 
-  <!---******************* CODE OF "INSERT THE MOBILE IMAGE & TEXT ************************** -->   
 
 
-                        <div class="m_image1">
-                        <img src="imageMobile\image1.png">
-                        </div>
                         
-</div>
-          <p class="text">
-          
-                          WE ARE BUILDING SOMETHING THAT <br>
-                          WILL HELP INDIAN SPORTS PEOPLE <br>
-                          ACHIEVE THEIR TRUE POTENTIAL
-                          
-          </p>
 
-<!--********************************** <button >Open Modal</button> **********************-->
+		  
 
-<!-- **************************************** Modal of About *******************************-->
+<!--************************** <button >Open Modal</button> ************-->
 
-<div id="myModal" class="modal">
+<!-- ******************************** Modal of About ****************-->
 
-  <!--***************************** Modal content OF ABOUT ******************************* -->
+<div id="myModal" class="modal" role="dialog">
+    <div class="modal-dialog">
+  <!--***************************** Modal content OF ABOUT *********************** -->
   
     <div class="modal-content">
 
@@ -59,13 +100,14 @@
           <p class="text2">"SUCCESS IS NO ACCIDENT, IT IS HARDWORK, PERSERVERANCE, LEARNING, STUDYING, SACRIFICE & <br> MOST OF ALL, LOVE OF WHAT YOU ARE DOING OR LEARNING TO DO"</p>
           <p class="text3">-PELE-<BR> WE ARE A GROUP OF PASSIONATE PEOPLE WHO HAVE A DREAM OF MAKING INDIA A NATION WHICH PRODUCES WORLD CLASS SPORTSMEN. WE WILL DO EVERYTHING POSSIBLE TO ACHIEVE THIS GOAL. SO, WHATCH THIS SPACE FOR XCITING THINGS WHICH WILL HAPPEN IN SPHERE OF SPORTS IN INDIA.</p>
     </div>
+  </div>
 </div>
 
-<!--***************************** Modal of E- *********************************************** -->
+<!--***************************** Modal of E- ********************************** -->
 
 <div id="myModal2" class="modal">
 
-  <!--***************************** Modal content OF ABOUT ****************************** --> 
+  <!--***************************** Modal content OF ABOUT ****************** --> 
  
        <div class="modal-content2">
     
@@ -78,16 +120,13 @@
             <button id="save"  onclick="saveEmail()" class="sub">SUBMIT</button></p>
           </div>
 </div>
-<inp onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your text'" />
-<!--***************************** Click the E-mail & About **************************** --> 
+<!-- <inp onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your text'" /> -->
 
- <div class="button">
-                    <button id="eBtn" class="email" >EMAIL US</button>
-                    <button id="aBtn" class="about">ABOUT US</button>
- </div>
+
+</div>
  </body>
 
-<!--***************************** Code of javascript and ******************************* --> 
+<!--***************************** Code of javascript and ************************* --> 
 
                      <script type="text/javascript" src="javascript/watch.js"></script>
                      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -95,20 +134,20 @@
                      <script type="text/javascript">
 
 
-/* ****************************** Click the E-mail & About ****************************** */ 
+/* ****************************** Click the E-mail & About ********************* */ 
 var modal = document.getElementById('myModal');
 var modal2 = document.getElementById('myModal2');
 
-/************************************Get the button that opens the *********************** */
+/************************************Get the button that opens the ************** */
 var btn = document.getElementById("aBtn");
 var emBtn = document.getElementById("eBtn");
 
-/****************************** Get the <span> element that closes the modal   ****************************/
+/******************* Get the <span> element that closes the modal   *********/
 
 var span = document.getElementsByClassName("close")[0];
 var span2 = document.getElementsByClassName("close2")[0];
 
-/************************* When the user clicks on the button, open the ******************/
+/******************** When the user clicks on the button, open the ******************/
 btn.onclick = function() 
 {
       console.log("abc");
@@ -121,7 +160,7 @@ emBtn.onclick = function()
       modal2.style.display = "block";
 }
 
-/****************************When the user clicks on <span> (x), close the modal ****************/
+/****************When the user clicks on <span> (x), close the modal ****************/
 span.onclick = function() 
 {
       modal.style.display = "none";
