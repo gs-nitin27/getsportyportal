@@ -16,7 +16,7 @@
       var todayh=today.getHours()
       var todaymin=today.getMinutes()
       var todaysec=today.getSeconds()
-      var todaystring=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec
+      var todaystring=montharray[todaym]+"  "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec
       futurestring=montharray[m-1]+" "+d+", "+yr
       dd=Date.parse(futurestring)-Date.parse(todaystring)
       dday=Math.floor(dd/(60*60*1000*24)*1)
@@ -32,5 +32,5 @@
       setTimeout("countdown(theyear,themonth,theday)",1000)
       }
       //enter the count down date using the format year/month/day
-      countdown(2016,10,15);
+      countdown(2016,11,28);
       
