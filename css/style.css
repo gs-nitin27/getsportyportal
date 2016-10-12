@@ -3,12 +3,7 @@
      background:  #28B6F6;
      font-size: 15px;
     }     
-.m_image1 {
-            position: relative;
-            margin-top:5%;
-            /*margin-left: 5%;*/
-            width: 100px;
-            }
+
 @font-face {
            font-family: Gotham Bold;
            src: url(../font/gotham_bold.ttf);
@@ -89,7 +84,7 @@
                 }
    .date-formate
          { 
-         position: fixed;
+         position: relative;
          background-color: #28B6F6;
          border: none;
          border-color: white;
@@ -173,22 +168,15 @@
          margin: 0 auto;
          width:500px;
         }
-.mobile_image
-            {
-             margin-top: 5%;
-            }
-
 .button
         {
          margin: 9% 55%;
         }
-
 .text1
       {
         font-size: 25px;
         color: white;
         font-family: Gotham Bold;
-        text-rendering: initial;
         margin-left: 8%;
         margin-top:0%; 
       }
@@ -197,9 +185,9 @@
       font-size: 18px;
       color: white;
       font-family: Gotham Book;
-      text-rendering: initial;
       padding:10px;
       margin-left: 8%;
+      line-height: 36px;
      }
 .text3
      {
