@@ -133,10 +133,13 @@
 /* The Close Button */
 .close 
 {
+
+
     color: white;
     float: right;
     font-size: 30px;
     font-family: Gotham Bold;
+    margin: -19px -136px;
 
    
 }
@@ -153,6 +156,7 @@
     float: right;
     font-size: 30px;
     font-family: Gotham Bold;
+   margin: -52px -126px;
 
     
 }
@@ -243,6 +247,7 @@
                 position: relative;
                 line-height: 210%;
                 margin-left: 13%;
+                top:23px;
             }
 .emailmessage
             {
@@ -252,7 +257,7 @@
                 position: relative;
                 line-height: 110%;
                 margin-left: 37%;
-                top:12;
+                top:36px;
                 
             }
 
@@ -265,6 +270,7 @@
         top: 15px;
         line-height: 210%;
         margin-left: 13%;
+        top:4px;
     }
 .sub
     {   
@@ -374,7 +380,14 @@
 {
 width: auto;
 font-size: 10px;
+padding: 16px;
 }
+.emailmessage
+{
+font-size: 10px;
+}
+
+
 .text 
 {
     margin-left: 0px!important;
@@ -393,6 +406,25 @@ font-size: 15px;
 font-size: 18px;
 }
 
+.text4
+    {
+        font-size: 18px;
+    }
+
+.email-content
+            {
+                font-size: 15px;
+}
+.close2 
+{
+  margin: auto;
+  }
+ .close
+ {
+    margin: auto;
+ }  
+
+ 
 .counter
  {
     width: auto;
@@ -432,11 +464,7 @@ font-size: 18px;
   max-width: 600px;
   padding-top: 0!important;
 }
-.close2
-{
-    margin-left: auto;
-    margin-top: auto;
-}
+
 
 
 
