@@ -28,18 +28,18 @@
     
     .text 
             {
-           font-size: 2.2em;
-           color: white;
-           font-family: Gotham Book;
-           margin-left: 40%;
-           margin-top:-30%; 
-            position: relative;
-            text-align: center;
+                font-size: 2.2em;
+                color: white;
+                font-family: Gotham Book;
+                margin-left: 40%;
+                margin-top:-30%; 
+                position: relative;
+                text-align: center;
            }
 
 
        .email
-             {
+            {
               background-color: #28b6f6;
               border: 2px solid #fff;
               color: white;
@@ -94,7 +94,6 @@
          border: none;
          border-color: white;
          color: white;
-        
          text-decoration: none;
          display: inline-block;
          font-size: 15px;
@@ -120,7 +119,7 @@
 .modal-content 
                 {
                 background-color: transparent;
-                margin: 4% auto;
+                margin: 0% auto;
                 padding: 20px;
                 border: 0px solid #fff;
                 width: 90%;
@@ -138,6 +137,7 @@
     float: right;
     font-size: 30px;
     font-family: Gotham Bold;
+
    
 }
 .close:hover,
@@ -153,7 +153,8 @@
     float: right;
     font-size: 30px;
     font-family: Gotham Bold;
-   
+
+    
 }
 .close2:hover,
 .close2:focus 
@@ -283,7 +284,8 @@
 	
 	
 	
-.main{
+.main
+{
   margin-top:5%;
 }
 .text {
@@ -306,84 +308,126 @@
     left: 14%!important;
 }
 
-.inputbox,.date-formate{
+.inputbox,.date-formate
+{
 	margin:0!important;
 	position:relative!important;
 	padding:12px 50px;
 	background:transparent;
 }
-.date-formate{
-	padding:12px 8%;
+.date-formate
+{
+	padding:2px 8%;
 }
-.date-formate span{
+.date-formate span
+{
 	margin-right:10px;
 }
 .date-formate span:nth-child(2),
 .date-formate span:nth-child(3){
 	margin-right:5%!important;
 }
-.img-responsive{
+.img-responsive
+{
     margin-left: -13%;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px)
+ {
 
-.img-responsive{
+.img-responsive
+{
     margin-left: 0%;
 }
 
-	.text,.button,.email-content{
+.text,.button,.email-content
+    {
 		text-align:center;
 	}
-	.about, .email{
+	.about, .email
+    {
 		left:0!important;
 	}
-	.button{
+	.button
+    {
 		margin-bottom:10%!important;
 	}
-  .date-formate{
+  .date-formate
+  {
     padding-left: 0;
     padding-right: 0;
     max-width: 600px;
   }
 }
 
-@media screen and (max-width: 767px) {
-.about, .email {
+@media screen and (max-width: 767px)
+ {
+.about, .email
+ {
     margin-bottom: 15px;
 }
-.text {
+.emailbox
+ {
+    width: auto;
+}
+.sub
+{
+width: auto;
+font-size: 10px;
+}
+.text 
+{
     margin-left: 0px!important;
     font-size: 1.5em;
 }
-.counter {
+.text1
+{
+font-size: 23px;
+}
+.text2
+{
+font-size: 15px;
+}
+.text3
+{
+font-size: 18px;
+}
+
+.counter
+ {
     width: auto;
 }
 
-.inputbox, .date-formate {
+.inputbox, .date-formate
+ {
     margin: 0 auto!important;
     display: block;
     text-align: center;
     width: 100%;
 
 }
-.inputbox {
+.inputbox 
+{
     font-size: 2em;
-	}
-	.main {
+}
+	.main 
+ {
     margin-top: 10%;
 }
 
-.date-formate table{
+.date-formate table
+{
     width: 330px;
     margin: 0 auto;
 }
 
 }
-.inputbox{
+.inputbox
+{
   padding:0!important; 
 }
-.date-formate{
+.date-formate
+{
   padding-left: 0;
   max-width: 600px;
   padding-top: 0!important;
@@ -395,6 +439,8 @@
 }
 
 
+
 table tr th {
     text-align: center;
+}
 }
