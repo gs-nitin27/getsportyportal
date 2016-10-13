@@ -29,7 +29,7 @@ echo json_encode($status);
   $mail->SMTPDebug = 0;  // debugging: 1 = errors and messages, 2 = messages only
   $mail->SMTPAuth = true;  // authentication enabled
   $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
-  $mail->Host = 'smtp.gmail.com';
+  $mail->Host = 'smtp.darkhorsesports.in';
   $mail->Port = 465; 
   $mail->Username = "info@darkhorsesports.in"; 
   $mail->Password = "2016Darkhorse";            

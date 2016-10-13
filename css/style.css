@@ -151,8 +151,7 @@
     float: right;
     font-size: 30px;
     font-family: Gotham Bold;
-   margin: -52px -126px;
-
+  margin: -62px -134px;
     
 }
 .close2:hover,
@@ -174,11 +173,11 @@
         }
 .text1
       {
-        font-size: 25px;
+        font-size: 20px;
         color: white;
         font-family: Gotham Bold;
         margin-left: 8%;
-        margin-top:0%; 
+        margin-top: 2%;
       }
 .text2
       {
@@ -187,15 +186,31 @@
       font-family: Gotham Book;
       padding:10px;
       margin-left: 8%;
-      line-height: 36px;
+      line-height: 30px;
+      font-weight: 700;
      }
 .text3
      {
-        font-size: 25px;
+        font-size: 28px;
+       color: white;
+        font-family: Gotham Book;
+        margin-left: 8%;
+        line-height: 44px;
+        font-weight: 700;
+        word-spacing: 4px;
+        text-align: justify;
+
+     }
+
+     .text5
+     {
+       font-size: 18px;
         color: white;
         font-family: Gotham Bold;
         margin-left: 8%;
+        line-height: 12px;
      }
+
 .modal-content2 
                 {
                  background-color: transparent;
@@ -220,22 +235,23 @@
              font-size: 14px;
              position: relative;
              top: 30px;
-             height: 44px;
-             text-decoration: none;
+            text-decoration: none;
              width: 500px;
              font-family: Gotham Bold;
              color: white;
              margin-left: 37%;
+             height: 50px;
             }
 .email-content
             {
-                font-size: 24px;
+                font-size: 22px;
                 color: white;
                 font-family: Gotham Book Italic;
                 position: relative;
                 line-height: 210%;
                 margin-left: 13%;
                 top:23px;
+                word-spacing: 2px;
             }
 .emailmessage
             {
@@ -245,20 +261,21 @@
                 position: relative;
                 line-height: 110%;
                 margin-left: 37%;
-                top:36px;
+                top: 34px;
                 
             }
 
 .text4
     {
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        font-family: Gotham Bold;
+        font-family: Gotham Book;
         position: relative;
         top: 15px;
         line-height: 210%;
         margin-left: 13%;
         top:4px;
+        font-weight: 700;
     }
 .sub
     {   
@@ -286,6 +303,7 @@
     margin-left: 15px!important;
     margin-right: 15px!important;
     margin-top: 10%!important;
+    word-spacing: 6px;
 }
 
 .button {
@@ -336,7 +354,8 @@
 
 .text,.button,.email-content
     {
-		text-align:center;
+		
+        text-align:center;
 	}
 	.about, .email
     {
@@ -362,17 +381,22 @@
 }
 .emailbox
  {
-    width: auto;
+     width: 216px;
+    margin-left: 32px;
 }
 .sub
 {
 width: auto;
-font-size: 10px;
+font-size: 9px;
 padding: 16px;
+height: 28px;
+margin-left: 103px;
 }
 .emailmessage
 {
-font-size: 10px;
+
+font-size: 8px;
+margin-left: 31px;
 }
 
 
@@ -383,33 +407,54 @@ font-size: 10px;
 }
 .text1
 {
-font-size: 23px;
+
+font-size: 16px;
+margin-left: 2px
 }
 .text2
 {
-font-size: 15px;
+
+font-size: 12px;
+margin-left: 2px;
+word-spacing: 2px;
 }
+
+.text5
+     {
+        
+        font-size: 12px;
+        margin-left: 14px;
+    line-height: 0px;
+
+     }
 .text3
 {
-font-size: 18px;
+font-size: 12px;
+line-height: 20px;
+margin-left: 2px;
 }
 
 .text4
     {
-        font-size: 18px;
+        
+        font-size: 12px;
+        line-height: 49px;
+        margin-left: 10px;
     }
 
 .email-content
             {
-                font-size: 15px;
+               font-size: 12px;
+                margin-left: 10px;
 }
 .close2 
 {
-  margin: auto;
+    margin: -18px -37px;
   }
  .close
  {
-    margin: auto;
+    
+    margin: -22px -40px;
  }  
 
  
@@ -452,10 +497,6 @@ font-size: 18px;
   max-width: 600px;
   padding-top: 0!important;
 }
-
-
-
-
 table tr th {
     text-align: center;
 }
